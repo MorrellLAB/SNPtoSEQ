@@ -2,12 +2,11 @@
 
 """Get the contextual sequence around SNPs from a VCF file"""
 
+import os
+import argparse
 import sys
 if sys.version_info.major is not 3:
     sys.exit("Please use Python 3 for this script")
-
-
-import os, argparse
 
 try:
     # import vcf
@@ -303,7 +302,7 @@ def capture_region(snp_tuple, reference, window):
 
 
 #   Sorting SNPs
-def sort_bed()
+# def sort_bed():
 
 
 #   Main
